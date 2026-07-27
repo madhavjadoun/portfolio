@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#F8F9FA"/>
+  
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="800" height="50" fill="#FFFFFF"/>
+  <line x1="0" y1="50" x2="800" y2="50" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="30" y="16" width="120" height="18" rx="4" fill="#111827"/>
+  <rect x="680" y="15" width="90" height="20" rx="6" fill="#F0FDF4" stroke="#A7F3D0" stroke-width="1"/>
+  <text x="725" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0F766E" text-anchor="middle">Active Workspace</text>
+
+  <!-- Title & Action Bar -->
+  <rect x="30" y="75" width="220" height="24" rx="4" fill="#111827"/>
+  <rect x="30" y="108" width="340" height="12" rx="3" fill="#6B7280"/>
+  
+  <rect x="650" y="75" width="120" height="34" rx="8" fill="#0F766E"/>
+  <text x="710" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">+ Add New Task</text>
+
+  <!-- Kanban Column 1: To Do -->
+  <rect x="30" y="145" width="230" height="270" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="45" y="160" width="70" height="18" rx="4" fill="#F3F4F6"/>
+  <text x="80" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#111827" text-anchor="middle">TO DO (3)</text>
+  
+  <!-- Task Card 1 -->
+  <rect x="45" y="192" width="200" height="90" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="60" y="207" width="120" height="12" rx="3" fill="#111827"/>
+  <rect x="60" y="226" width="160" height="8" rx="2" fill="#9CA3AF"/>
+  <rect x="60" y="240" width="100" height="8" rx="2" fill="#9CA3AF"/>
+  <rect x="60" y="258" width="50" height="14" rx="4" fill="#FEF3C7"/>
+  <text x="85" y="269" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#D97706" text-anchor="middle">Medium</text>
+
+  <!-- Task Card 2 -->
+  <rect x="45" y="294" width="200" height="90" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="60" y="309" width="140" height="12" rx="3" fill="#111827"/>
+  <rect x="60" y="328" width="150" height="8" rx="2" fill="#9CA3AF"/>
+  <rect x="60" y="342" width="110" height="8" rx="2" fill="#9CA3AF"/>
+  <rect x="60" y="360" width="40" height="14" rx="4" fill="#FEE2E2"/>
+  <text x="80" y="371" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#DC2626" text-anchor="middle">High</text>
+
+  <!-- Kanban Column 2: In Progress -->
+  <rect x="285" y="145" width="230" height="270" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="300" y="160" width="110" height="18" rx="4" fill="#F0FDF4"/>
+  <text x="355" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#0F766E" text-anchor="middle">IN PROGRESS (2)</text>
+
+  <!-- Task Card 3 -->
+  <rect x="300" y="192" width="200" height="90" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.5"/>
+  <rect x="315" y="207" width="130" height="12" rx="3" fill="#111827"/>
+  <rect x="315" y="226" width="150" height="8" rx="2" fill="#9CA3AF"/>
+  <rect x="315" y="240" width="120" height="8" rx="2" fill="#9CA3AF"/>
+  <rect x="315" y="258" width="60" height="14" rx="4" fill="#ECFDF5"/>
+  <text x="345" y="269" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#0F766E" text-anchor="middle">In Review</text>
+
+  <!-- Kanban Column 3: Completed -->
+  <rect x="540" y="145" width="230" height="270" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="555" y="160" width="100" height="18" rx="4" fill="#F3F4F6"/>
+  <text x="605" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#4B5563" text-anchor="middle">COMPLETED (4)</text>
+
+  <!-- Task Card 4 -->
+  <rect x="555" y="192" width="200" height="90" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="570" y="207" width="110" height="12" rx="3" fill="#6B7280"/>
+  <rect x="570" y="226" width="140" height="8" rx="2" fill="#D1D5DB"/>
+  <rect x="570" y="258" width="45" height="14" rx="4" fill="#F3F4F6"/>
+  <text x="592" y="269" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#4B5563" text-anchor="middle">Done</text>
+</svg>
